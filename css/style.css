@@ -216,4 +216,13 @@ button:focus {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
+/* line 193, ../курсы/katera/src/sass/style.sass */
+.map {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  flex-direction: column;
+  padding: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
