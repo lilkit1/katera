@@ -225,4 +225,79 @@ button:focus {
   padding: 0;
 }
 
+/* line 202, ../курсы/katera/src/sass/style.sass */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* line 208, ../курсы/katera/src/sass/style.sass */
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  min-height: 100px;
+  max-height: 150px;
+}
+
+/* line 216, ../курсы/katera/src/sass/style.sass */
+.foo {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* line 222, ../курсы/katera/src/sass/style.sass */
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+/* line 225, ../курсы/katera/src/sass/style.sass */
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+/* line 229, ../курсы/katera/src/sass/style.sass */
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+/* line 233, ../курсы/katera/src/sass/style.sass */
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+/* line 237, ../курсы/katera/src/sass/style.sass */
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 248, ../курсы/katera/src/sass/style.sass */
+  .kartochki {
+    display: block;
+  }
+  /* line 250, ../курсы/katera/src/sass/style.sass */
+  .too {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
