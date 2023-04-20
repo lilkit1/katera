@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-/* line 1, ../курсы/katera/src/sass/style.sass */
+/* line 3, ../курсы/katera/src/sass/style.sass */
 * {
   margin: 0;
   padding: 0;
@@ -8,26 +8,26 @@
   box-sizing: border-box;
 }
 
-/* line 7, ../курсы/katera/src/sass/style.sass */
+/* line 9, ../курсы/katera/src/sass/style.sass */
 body {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(90deg, #14566a 0%, #020818 55%, #1d3c08 100%);
 }
 
-/* line 12, ../курсы/katera/src/sass/style.sass */
+/* line 14, ../курсы/katera/src/sass/style.sass */
 .navbar-collapse {
   justify-content: flex-end;
 }
 
-/* line 15, ../курсы/katera/src/sass/style.sass */
+/* line 17, ../курсы/katera/src/sass/style.sass */
 header {
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
 
-/* line 20, ../курсы/katera/src/sass/style.sass */
+/* line 22, ../курсы/katera/src/sass/style.sass */
 .bg {
   width: 110%;
   height: 110%;
@@ -36,7 +36,7 @@ header {
   position: relative;
 }
 
-/* line 27, ../курсы/katera/src/sass/style.sass */
+/* line 29, ../курсы/katera/src/sass/style.sass */
 .bird {
   width: 5200px;
   height: 2723px;
@@ -46,10 +46,10 @@ header {
   left: -10%;
 }
 
-/* line 35, ../курсы/katera/src/sass/style.sass */
+/* line 37, ../курсы/katera/src/sass/style.sass */
 .content {
   font-size: 100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Roboto;
   font-weight: bold;
   color: #fff;
   position: absolute;
@@ -58,22 +58,28 @@ header {
   transform: translate(-50%);
 }
 
-/* line 47, ../курсы/katera/src/sass/style.sass */
-h1 {
+/* line 48, ../курсы/katera/src/sass/style.sass */
+.content h1 {
   text-align: center;
 }
 
-/* line 55, ../курсы/katera/src/sass/style.sass */
+/* line 50, ../курсы/katera/src/sass/style.sass */
+.content p {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* line 58, ../курсы/katera/src/sass/style.sass */
 .blockquote {
   color: #fff;
 }
 
-/* line 58, ../курсы/katera/src/sass/style.sass */
+/* line 61, ../курсы/katera/src/sass/style.sass */
 .blockquote-footer {
   color: #fff;
 }
 
-/* line 62, ../курсы/katera/src/sass/style.sass */
+/* line 65, ../курсы/katera/src/sass/style.sass */
 .uslugi {
   position: relative;
   overflow: hidden;
@@ -82,7 +88,7 @@ h1 {
   height: 100vh;
 }
 
-/* line 70, ../курсы/katera/src/sass/style.sass */
+/* line 73, ../курсы/katera/src/sass/style.sass */
 .sidebar {
   height: 100%;
   width: 35%;
@@ -92,7 +98,7 @@ h1 {
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 79, ../курсы/katera/src/sass/style.sass */
+/* line 82, ../курсы/katera/src/sass/style.sass */
 .sidebar > div {
   height: 100%;
   width: 100%;
@@ -103,14 +109,20 @@ h1 {
   color: #fff;
 }
 
-/* line 89, ../курсы/katera/src/sass/style.sass */
+/* line 92, ../курсы/katera/src/sass/style.sass */
 .sidebar h3 {
   font-size: 40px;
   margin-bottom: 10px;
   margin-top: -30px;
+  text-align: center;
 }
 
-/* line 95, ../курсы/katera/src/sass/style.sass */
+/* line 98, ../курсы/katera/src/sass/style.sass */
+.sidebar p {
+  text-align: center;
+}
+
+/* line 102, ../курсы/katera/src/sass/style.sass */
 .main-slide {
   height: 100%;
   position: absolute;
@@ -120,7 +132,7 @@ h1 {
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 104, ../курсы/katera/src/sass/style.sass */
+/* line 111, ../курсы/katera/src/sass/style.sass */
 .main-slide > div {
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,7 +141,7 @@ h1 {
   width: 100%;
 }
 
-/* line 112, ../курсы/katera/src/sass/style.sass */
+/* line 119, ../курсы/katera/src/sass/style.sass */
 button {
   background-color: #fff;
   border: none;
@@ -139,17 +151,17 @@ button {
   padding: 30px;
 }
 
-/* line 121, ../курсы/katera/src/sass/style.sass */
+/* line 128, ../курсы/katera/src/sass/style.sass */
 button:hover {
   color: #222;
 }
 
-/* line 125, ../курсы/katera/src/sass/style.sass */
+/* line 132, ../курсы/katera/src/sass/style.sass */
 button:focus {
   outline: none;
 }
 
-/* line 129, ../курсы/katera/src/sass/style.sass */
+/* line 136, ../курсы/katera/src/sass/style.sass */
 .container .controls button {
   position: absolute;
   left: 35%;
@@ -157,21 +169,21 @@ button:focus {
   z-index: 100;
 }
 
-/* line 136, ../курсы/katera/src/sass/style.sass */
+/* line 143, ../курсы/katera/src/sass/style.sass */
 .container .controls .down-button {
   transform: translateX(-100%);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-/* line 142, ../курсы/katera/src/sass/style.sass */
+/* line 149, ../курсы/katera/src/sass/style.sass */
 .container .controls .up-button {
   transform: translateY(-100%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-/* line 151, ../курсы/katera/src/sass/style.sass */
+/* line 158, ../курсы/katera/src/sass/style.sass */
 .kartochki {
   max-width: 100%;
   width: 100%;
@@ -179,7 +191,7 @@ button:focus {
   padding: 0 20px;
 }
 
-/* line 158, ../курсы/katera/src/sass/style.sass */
+/* line 165, ../курсы/katera/src/sass/style.sass */
 .slide {
   height: 80vh;
   border-radius: 20px;
@@ -194,7 +206,7 @@ button:focus {
   transition: all 500ms ease-in-out;
 }
 
-/* line 172, ../курсы/katera/src/sass/style.sass */
+/* line 179, ../курсы/katera/src/sass/style.sass */
 .slide h3 {
   position: absolute;
   font-size: 24px;
@@ -204,18 +216,18 @@ button:focus {
   opacity: 0;
 }
 
-/* line 181, ../курсы/katera/src/sass/style.sass */
+/* line 188, ../курсы/katera/src/sass/style.sass */
 .slide.active {
   flex: 10;
 }
 
-/* line 185, ../курсы/katera/src/sass/style.sass */
+/* line 192, ../курсы/katera/src/sass/style.sass */
 .slide.active h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-/* line 191, ../курсы/katera/src/sass/style.sass */
+/* line 198, ../курсы/katera/src/sass/style.sass */
 .vid {
   display: flex;
   width: 100%;
@@ -223,7 +235,7 @@ button:focus {
   justify-content: center;
 }
 
-/* line 197, ../курсы/katera/src/sass/style.sass */
+/* line 204, ../курсы/katera/src/sass/style.sass */
 .txt {
   display: flex;
   background: linear-gradient(221.87deg, #002834 25%, #2a8d9c 100%);
@@ -234,13 +246,13 @@ button:focus {
   width: 100%;
 }
 
-/* line 205, ../курсы/katera/src/sass/style.sass */
+/* line 212, ../курсы/katera/src/sass/style.sass */
 .txt p {
   max-width: 450px;
   text-align: center;
 }
 
-/* line 209, ../курсы/katera/src/sass/style.sass */
+/* line 216, ../курсы/katera/src/sass/style.sass */
 .ecran {
   display: flex;
   width: 100%;
@@ -249,7 +261,7 @@ button:focus {
   align-items: center;
 }
 
-/* line 218, ../курсы/katera/src/sass/style.sass */
+/* line 225, ../курсы/katera/src/sass/style.sass */
 .map {
   display: flex;
   max-width: 100%;
@@ -258,7 +270,7 @@ button:focus {
   padding: 0;
 }
 
-/* line 227, ../курсы/katera/src/sass/style.sass */
+/* line 234, ../курсы/katera/src/sass/style.sass */
 .flex {
   display: flex;
   justify-content: center;
@@ -266,7 +278,7 @@ button:focus {
   text-align: center;
 }
 
-/* line 233, ../курсы/katera/src/sass/style.sass */
+/* line 240, ../курсы/katera/src/sass/style.sass */
 .waves {
   position: relative;
   width: 100%;
@@ -276,7 +288,7 @@ button:focus {
   max-height: 150px;
 }
 
-/* line 241, ../курсы/katera/src/sass/style.sass */
+/* line 248, ../курсы/katera/src/sass/style.sass */
 .foo {
   position: relative;
   height: 20vh;
@@ -284,33 +296,38 @@ button:focus {
   background-color: #fff;
 }
 
-/* line 247, ../курсы/katera/src/sass/style.sass */
+/* line 254, ../курсы/katera/src/sass/style.sass */
 .parallax > use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
 
-/* line 250, ../курсы/katera/src/sass/style.sass */
+/* line 257, ../курсы/katera/src/sass/style.sass */
 .parallax > use:nth-child(1) {
   animation-delay: -2s;
   animation-duration: 7s;
 }
 
-/* line 254, ../курсы/katera/src/sass/style.sass */
+/* line 261, ../курсы/katera/src/sass/style.sass */
 .parallax > use:nth-child(2) {
   animation-delay: -3s;
   animation-duration: 10s;
 }
 
-/* line 258, ../курсы/katera/src/sass/style.sass */
+/* line 265, ../курсы/katera/src/sass/style.sass */
 .parallax > use:nth-child(3) {
   animation-delay: -4s;
   animation-duration: 13s;
 }
 
-/* line 262, ../курсы/katera/src/sass/style.sass */
+/* line 269, ../курсы/katera/src/sass/style.sass */
 .parallax > use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
+}
+
+/* line 274, ../курсы/katera/src/sass/style.sass */
+section {
+  margin-top: 50px;
 }
 
 @keyframes move-forever {
@@ -322,18 +339,36 @@ button:focus {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  /* line 287, ../курсы/katera/src/sass/style.sass */
+  .sidebar h3 {
+    margin-top: -135px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  /* line 273, ../курсы/katera/src/sass/style.sass */
+  /* line 291, ../курсы/katera/src/sass/style.sass */
   .kartochki {
     display: block;
   }
-  /* line 275, ../курсы/katera/src/sass/style.sass */
+  /* line 293, ../курсы/katera/src/sass/style.sass */
   .too {
     display: none;
   }
-  /* line 278, ../курсы/katera/src/sass/style.sass */
+  /* line 296, ../курсы/katera/src/sass/style.sass */
   .vid {
     flex-wrap: wrap;
+  }
+  /* line 299, ../курсы/katera/src/sass/style.sass */
+  .sidebar h3 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* line 304, ../курсы/katera/src/sass/style.sass */
+  .sidebar h3 {
+    font-size: 20px;
   }
 }
 
